@@ -48,7 +48,7 @@ $pending = $pdo->query("SELECT COUNT(*) FROM orders WHERE status='menunggu'")->f
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buat Pesanan Laundry - <?= APP_NAME ?></title>
-    <link rel="stylesheet" href="<?= APP_URL ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?= APP_URL ?>/assets/css/style.css?v=2">
 </head>
 <body>
 <div class="layout">

@@ -73,7 +73,7 @@ $pending = $pdo->query("SELECT COUNT(*) FROM orders WHERE status='menunggu'")->f
 <head>
     <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelola Pengguna - <?= APP_NAME ?></title>
-    <link rel="stylesheet" href="<?= APP_URL ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?= APP_URL ?>/assets/css/style.css?=v2">
     <style>
         .modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);align-items:center;justify-content:center;z-index:1000}
         .modal-content{background:white;padding:24px;border-radius:12px;width:90%;max-width:400px;position:relative}

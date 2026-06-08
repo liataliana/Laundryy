@@ -27,7 +27,7 @@ $pending = $pdo->query("SELECT COUNT(*) FROM orders WHERE status='menunggu'")->f
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manajemen Pesanan - <?= APP_NAME ?></title>
-  <link rel="stylesheet" href="<?= APP_URL ?>/assets/css/style.css">
+  <link rel="stylesheet" href="<?= APP_URL ?>/assets/css/style.css?=v2">
   <style>.filter-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}.filter-tab{padding:7px 16px;border-radius:99px;font-size:13px;font-weight:600;border:1.5px solid var(--border);color:var(--gray);transition:all .2s}.filter-tab:hover,.filter-tab.active{border-color:var(--primary);background:var(--primary-light);color:var(--primary)}</style>
 </head>
 <body>

@@ -3,7 +3,8 @@ session_start();
 
 // Define constants
 define('APP_NAME', 'Laundry Management System');
-define('APP_URL', 'http://localhost/LMS');
+// Ensure APP_URL matches the project folder name in htdocs
+define('APP_URL', 'http://localhost/LaundryManagementSystem');
 
 // Database configuration
 $host = 'localhost';

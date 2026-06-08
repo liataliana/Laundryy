@@ -69,7 +69,7 @@ $pending = $pdo->query("SELECT COUNT(*) FROM orders WHERE status='menunggu'")->f
 <head>
     <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laporan - <?= APP_NAME ?></title>
-    <link rel="stylesheet" href="<?= APP_URL ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?= APP_URL ?>/assets/css/style.css?=v2">
     <style>
         .filters{display:flex;gap:12px;flex-wrap:wrap;align-items:end;margin-bottom:24px}
         .filters input[type="date"], .filters select{padding:10px;border:1px solid var(--border);border-radius:6px;font-size:14px}
